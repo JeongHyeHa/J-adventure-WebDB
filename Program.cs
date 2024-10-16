@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(11, 4, 3))));
+        new MySqlServerVersion(new Version(8, 0, 37))));
 
 // Newtonsoft.Json을 사용하도록 설정
 builder.Services.AddControllers()

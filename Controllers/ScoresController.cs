@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+// 테이블 Score의 CRUD(Create, Read, Update, Delete) 작업 처리
 namespace HitBallWebServer
 {
     [ApiController]
@@ -18,98 +19,91 @@ namespace HitBallWebServer
             _context = context;
         }
 
-        // GET: api/scores
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Score>>> GetScores()
-        {
-            return await _context.Scores.ToListAsync();
-        }
-
         // GET: api/scores/5
+        // 특정 user_id의 데이터 조회(로그인 처리)
         [HttpGet("{id}")]
         public async Task<ActionResult<Score>> GetScore(int id)
         {
             var score = await _context.Scores.FindAsync(id);
 
+            // user_id가 존재하지 않으면 회원가입 진행
             if (score == null)
             {
-                return NotFound();
+                return NotFound("User ID not found.");
             }
 
-            return score;
+            _context.Entry(score).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return Ok(score);
         }
 
-        // GET: api/scores/player/1
-        [HttpGet("player/{playerId}")]
-        public async Task<ActionResult<IEnumerable<Score>>> GetScoresByPlayer(string playerId)
-        {
-            return await _context.Scores.Where(s => s.Id == playerId).ToListAsync();
-        }
-
-        // POST: api/scores
-        [HttpPost]
+        // POST: api/scores/signup
+        // 회원가입 처리  
+        [HttpPost("signup")]
         public async Task<ActionResult<Score>> PostScore(Score score)
         {
-            if (!ModelState.IsValid)
+            // 이미 존재하는 사용자 여부 확인
+            var existingScore = await _context.Scores.FindAsync(score.user_id);
+            if (existingScore != null)
             {
-                return BadRequest(ModelState);
+                return BadRequest("User ID already exists. Please log in.");
             }
+
+            score.tryCount = 0;
 
             _context.Scores.Add(score);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetScore), new { id = score.GameId }, score);
+            return CreatedAtAction(nameof(GetScore), new { id = score.user_id }, score);
         }
 
-        // PUT: api/scores/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutScore(int id, Score score)
+        // POST: api/scores/updateScore
+        // 점수 업데이트 처리   
+        [HttpPost("updateScore")]
+        public async Task<IActionResult> PostScore([FromBody] ScoreUpdateRequest request)
         {
-            if (id != score.GameId)
-            {
-                return BadRequest();
-            }
+            var score = await _context.Scores.FindAsync(request.user_id);
 
-            _context.Entry(score).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ScoreExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // DELETE: api/scores/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteScore(int id)
-        {
-            var score = await _context.Scores.FindAsync(id);
             if (score == null)
             {
-                return NotFound();
+                return NotFound("User ID not found.");
             }
 
-            _context.Scores.Remove(score);
+            score.user_score = request.gameScore;
+            _context.Entry(score).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok("Score updated.");
         }
 
-        private bool ScoreExists(int id)
+        // POST: api/scores/updateTryCount
+        [HttpPost("updateTryCount")]
+        public async Task<IActionResult> PostTryCount([FromBody] ScoreUpdateRequest request)
         {
-            return _context.Scores.Any(e => e.GameId == id);
+            // 데이터베이스에서 user_id에 해당하는 Score 객체 찾기
+            var score = await _context.Scores.FindAsync(request.user_id);
+
+            if (score == null)
+            {
+                return NotFound("User ID not found.");
+            }
+            
+            // Score 객체의 tryCount 필드를 업데이트
+            score.tryCount = request.tryCount;
+
+            // 수정된 Score 객체를 데이터베이스에 반영
+            _context.Entry(score).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return Ok("Try count updated.");
+        }
+
+        public class ScoreUpdateRequest
+        {
+            public int user_id { get; set; }
+            public int gameScore { get; set; }
+            public int tryCount { get; set; }
         }
     }
 }

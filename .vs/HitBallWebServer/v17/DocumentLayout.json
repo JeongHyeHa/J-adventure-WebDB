@@ -1,49 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\HitBall\\HitBallWebServer\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\HitBallWebServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\models\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:models\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\controllers\\scorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\controllers\\scorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:controllers\\scorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\hitballwebserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:hitballwebserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\models\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:models\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\hitballwebserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:hitballwebserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\hitballwebserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:hitballwebserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\hitballwebserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:hitballwebserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\HitBallWebServer\\Migrations\\20241015102814_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241015102814_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\hitballwebserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:hitballwebserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|d:\\projects\\hitball\\hitballwebserver\\hitballwebserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:hitballwebserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|c:\\users\\user\\hitballwebserver\\migrations\\20241015103447_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A109730C-59C3-4BAF-9796-6183ABFEBCF6}|HitBallWebServer.csproj|solutionrelative:migrations\\20241015103447_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,127 +61,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Score.cs",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\Models\\Score.cs",
-              "RelativeDocumentMoniker": "Models\\Score.cs",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\Models\\Score.cs",
-              "RelativeToolTip": "Models\\Score.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "20241015103447_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\Migrations\\20241015103447_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241015103447_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\Migrations\\20241015103447_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20241015103447_InitialCreate.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBgAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T09:30:07.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T10:34:48.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241015102814_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\Migrations\\20241015102814_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241015102814_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\Migrations\\20241015102814_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20241015102814_InitialCreate.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:28:14.608Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Title": "Score.cs",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\Models\\Score.cs",
+              "RelativeDocumentMoniker": "Models\\Score.cs",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\Models\\Score.cs",
+              "RelativeToolTip": "Models\\Score.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:21:48.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T09:30:07.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:21:48.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-02T14:24:00.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-02T14:23:11.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T14:23:11.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ApplicationDbContext.cs",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\ApplicationDbContext.cs",
               "RelativeToolTip": "ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwB8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:29:43.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T14:29:43.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HitBallWebServer.http",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\HitBallWebServer.http",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\HitBallWebServer.http",
               "RelativeDocumentMoniker": "HitBallWebServer.http",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\HitBallWebServer.http",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\HitBallWebServer.http",
               "RelativeToolTip": "HitBallWebServer.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2024-10-02T14:35:56.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ScoresController.cs",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\Controllers\\ScoresController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\Controllers\\ScoresController.cs",
               "RelativeDocumentMoniker": "Controllers\\ScoresController.cs",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\Controllers\\ScoresController.cs",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\Controllers\\ScoresController.cs",
               "RelativeToolTip": "Controllers\\ScoresController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBQAAAAaAAAAAAAAAA==",
+              "ViewState": "AQIAABgAAAAAAAAAAAAxwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T10:43:30.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-07T12:26:14.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "HitBallWebServer",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\HitBallWebServer.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\HitBallWebServer.csproj",
               "RelativeDocumentMoniker": "HitBallWebServer.csproj",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\HitBallWebServer.csproj",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\HitBallWebServer.csproj",
               "RelativeToolTip": "HitBallWebServer.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-02T15:33:52.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALcUAAAAAAAAAAAiwMkUAAA+AAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2024-10-03T09:23:53.603Z"
             },
@@ -181,11 +211,11 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "HitBallWebServer.csproj",
-              "DocumentMoniker": "D:\\Projects\\HitBall\\HitBallWebServer\\HitBallWebServer.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\HitBallWebServer\\HitBallWebServer.csproj",
               "RelativeDocumentMoniker": "HitBallWebServer.csproj",
-              "ToolTip": "D:\\Projects\\HitBall\\HitBallWebServer\\HitBallWebServer.csproj",
+              "ToolTip": "C:\\Users\\User\\HitBallWebServer\\HitBallWebServer.csproj",
               "RelativeToolTip": "HitBallWebServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-02T15:16:46.172Z"
             }
